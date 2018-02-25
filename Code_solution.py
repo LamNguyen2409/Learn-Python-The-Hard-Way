@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=FgN-mHwHLyg&list=PLyiioioEJSxEh_S_XFvG0d2xKRMSWLfN_
+
 # Python list function
 #https://learnpythonthehardway.org/book/ex2.html
 
@@ -131,6 +133,25 @@ print "If I add %d, %d, and %d I get %d." %(age, height, weight, age + height + 
 # print "He's %f inches tall." % (height *2.54)
 #3. Search online for all of the Python format characters : https://docs.python.org/2/library/stdtypes.html#string-formatting
 #4. try more format characters %r is a very useful one.it's like saying 'print this no matter what
+name = 'Zed A.Shaw'
+age = 35 # not a lie
+height = 74 # inches
+weight = 180 #lbs
+eyes = 'Blue'
+teeth = "White"
+hair = 'Brown'
+
+print " Let's talk about %r." % name
+print "He's %r inches tall." % height*2.57
+print "He's %r pounds heavy." % weight
+print "Actually that's not too heavy."
+print "He's got %r eyes and %r hair." % (eyes, hair)
+print "His teeth are usually %r depending on the coffee." % teeth
+
+# this line is tricky, try to get it exactly right
+print "If I add %r, %r, and %r I get %r." %(age, height, weight, age + height +  weight)
+
+
 
 #Exercise 6: String and text
 
