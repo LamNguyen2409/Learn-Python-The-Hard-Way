@@ -5,3 +5,4 @@ http://www.secnetix.de/olli/Python/list_comprehensions.hawk
 #b = [i for i in range(101) if i%2 == 1]
 #how to run in jupyter : shift + enter
 http://www.practicepython.org
+List/ dictionary
