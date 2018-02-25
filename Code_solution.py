@@ -129,7 +129,8 @@ print "If I add %d, %d, and %d I get %d." %(age, height, weight, age + height + 
 #2. try to write some variables that convert the inches and pounds to centimeters and kilograms 
 # print "He's %d inches tall." % (height *2.54)
 # print "He's %f inches tall." % (height *2.54)
-#3. Search online for all of the Python format characters : 
+#3. Search online for all of the Python format characters : https://docs.python.org/2/library/stdtypes.html#string-formatting
+#4. try more format characters %r is a very useful one.it's like saying 'print this no matter what
 
 #Exercise 6: String and text
 
